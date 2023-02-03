@@ -33,9 +33,6 @@ equal.addEventListener('click', ()=>{
     } catch {
         alert("Invalid Input!")
     }
-    /* let inp_val = input.value
-    let result = eval(inp_val)
-    input.value = result.toFixed(5) */
 })
 clear.addEventListener('click', ()=>{
     input.value = ""
@@ -43,10 +40,3 @@ clear.addEventListener('click', ()=>{
 erase.addEventListener('click', ()=>{
     input.value = input.value.substr(0,input.value.length-1)
 })
-
-/* erase.addEventListener('click', ()=>{
-    input.value -= button_class.value 
-}) */
-
-//console.log(eval(25*25-5))
-//console.log(eval(25*25..9--5))
